@@ -26,7 +26,7 @@ protected:
 	void Dash();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
-	float DefaultSpeed = 500.f;
+	float DefaultSpeed = 250.f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
 	float SprintSpeed = 800.f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
