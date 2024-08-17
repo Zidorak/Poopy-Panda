@@ -3,6 +3,8 @@
 
 #include "PandaPlayerCharacter.h"
 
+#include "GameFramework/CharacterMovementComponent.h"
+
 APandaPlayerCharacter::APandaPlayerCharacter()
 {
 	PrimaryActorTick.bCanEverTick = true;
@@ -26,6 +28,22 @@ void APandaPlayerCharacter::Tick(float DeltaTime)
 		FVector NewLocation = FMath::VInterpTo(CurrentLocation, TargetLocation, DeltaTime, speed);
 		SetActorLocation(NewLocation, true);
 	}
+}
+
+void APandaPlayerCharacter::StartSprint()
+{
+	GetCharacterMovement()->MaxWalkSpeed = SprintSpeed;
+}
+
+void APandaPlayerCharacter::EndSprint()
+{
+	GetCharacterMovement()->MaxWalkSpeed = DefaultSpeed;
+}
+
+void APandaPlayerCharacter::Dash()
+{
+	const FVector ForwardDir = this->GetActorRotation().Vector();
+	LaunchCharacter(ForwardDir * DashDistance, true, true);
 }
 
 

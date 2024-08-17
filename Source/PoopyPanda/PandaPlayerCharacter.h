@@ -17,6 +17,20 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+
+	UFUNCTION(BlueprintCallable)
+	void StartSprint();
+	UFUNCTION(BlueprintCallable)
+	void EndSprint();
+	UFUNCTION(BlueprintCallable)
+	void Dash();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+	float DefaultSpeed = 500.f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+	float SprintSpeed = 800.f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+	float DashDistance = 1500;
 	
 public:	
 	// Called every frame
