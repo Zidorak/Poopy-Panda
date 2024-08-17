@@ -26,11 +26,11 @@ protected:
 	void Dash();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
-	float DefaultSpeed = 250.f;
+	float DefaultSpeed = 350.f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
 	float SprintSpeed = 800.f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
-	float DashDistance = 1500;
+	float DashDistance = 2000;
 	
 public:	
 	// Called every frame
@@ -46,4 +46,16 @@ private:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Boost", meta = (AllowPrivateAccess = "true"))
 	bool BoostActive = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats", meta = (AllowPrivateAccess = "true"))
+	float Stamina = 100.f;
+	float StaminaRegenRate = 5.f;
+	float StaminaExpenseRate = 15.f;
+	float MaxStamina = 100.f;
+	float StaminaDelayTime = 3.f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stas", meta = (AllowPrivateAccess = "true"))
+	float PooBar = 0.f;
+
+	bool IsSprinting = false;
 };
