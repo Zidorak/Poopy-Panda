@@ -3,7 +3,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
-#include "PoopyPandaCharacter.generated.h"
+#include "StarterCharacter.generated.h"
 
 class USpringArmComponent;
 class UCameraComponent;
@@ -14,7 +14,7 @@ struct FInputActionValue;
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
 
 UCLASS(config=Game)
-class APoopyPandaCharacter : public ACharacter
+class AStarterCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
@@ -43,7 +43,7 @@ class APoopyPandaCharacter : public ACharacter
 	UInputAction* LookAction;
 
 public:
-	APoopyPandaCharacter();
+	AStarterCharacter();
 	
 
 protected:

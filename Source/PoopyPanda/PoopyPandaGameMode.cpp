@@ -1,7 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "PoopyPandaGameMode.h"
-#include "PoopyPandaCharacter.h"
+#include "StarterCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 APoopyPandaGameMode::APoopyPandaGameMode()

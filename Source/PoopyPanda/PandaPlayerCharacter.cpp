@@ -15,8 +15,12 @@ APandaPlayerCharacter::APandaPlayerCharacter()
 {
 	PrimaryActorTick.bCanEverTick = true;
 
+	// Constructs Scene components for spawning actors
 	SpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Poop Spawn Point"));
 	SpawnPoint->SetupAttachment(RootComponent);
+
+	ProjectileSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Projectile Spawn Point"));
+	ProjectileSpawnPoint->SetupAttachment(RootComponent);
 }
 
 // Begin Play
@@ -99,36 +103,54 @@ void APandaPlayerCharacter::Dash()
 	switch (int32 DashHoldTimerInt = (int32)DashHoldTimer)
 	{
 	case 1:
-		DashDistance = 500;
-		LaunchCharacter(ForwardDir * DashDistance, true, true);
+		if(PooBar >= 20)
+		{
+			DashDistance = 500;
+			PooBar -= 20;
+			LaunchCharacter(ForwardDir * DashDistance, true, true);
+		}
 		break;
 
 	case 2:
-		DashDistance = 1000;
-		LaunchCharacter(ForwardDir * DashDistance, true, true);
+		if(PooBar >= 40)
+		{
+			DashDistance = 1000;
+			PooBar -= 40;
+			LaunchCharacter(ForwardDir * DashDistance, true, true);
+		}
 		break;
 
 	case 3:
-		DashDistance = 1500;
-		LaunchCharacter(ForwardDir * DashDistance, true, true);
+		if(PooBar >= 60)
+		{
+			DashDistance = 1500;
+			PooBar -= 60;
+			LaunchCharacter(ForwardDir * DashDistance, true, true);
+		}
 		break;
 
 	case 4:
-		DashDistance = 2000;
-		LaunchCharacter(ForwardDir * DashDistance, true, true);
+		if(PooBar >= 80)
+		{
+			DashDistance = 2000;
+			PooBar -= 80;
+			LaunchCharacter(ForwardDir * DashDistance, true, true);
+		}
 		break;
 
 	case 5:
-		DashDistance = 2500;
-		LaunchCharacter(ForwardDir * DashDistance, true, true);
+		if (PooBar >= 100)
+		{
+			DashDistance = 2500;
+			PooBar -= 100;
+			LaunchCharacter(ForwardDir * DashDistance, true, true);
+		}
 		break;
 
 		default:
 			DashDistance = 0;
 		return;
 	}
-	
-	PooBar -= 25;
 	DashHoldTimer = 0.f;
 
 	UE_LOG(LogTemp, Display, TEXT("Poo Bar Remaining: %f"), PooBar);
@@ -141,11 +163,15 @@ void APandaPlayerCharacter::CheckScoreForMovement()
 
 void APandaPlayerCharacter::SpawnPoop()
 {
-	const FVector SpawnLocation = SpawnPoint->GetComponentLocation();
-	const FRotator SpawnRotation = SpawnPoint->GetComponentRotation();
-	GetWorld()->SpawnActor<AActor>(ActorToSpawn, SpawnLocation, SpawnRotation);
+	if(PooBar >= 20.f)
+	{
+		const FVector SpawnLocation = SpawnPoint->GetComponentLocation();
+		const FRotator SpawnRotation = SpawnPoint->GetComponentRotation();
+		GetWorld()->SpawnActor<AActor>(ActorToSpawn, SpawnLocation, SpawnRotation);
+		PooBar -= 20.f;
 
-	UE_LOG(LogTemp, Display, TEXT("Poop Spawned"));
+		UE_LOG(LogTemp, Display, TEXT("Poop Spawned"));
+	}
 }
 
 void APandaPlayerCharacter::CatchPlayerLose()
@@ -158,5 +184,18 @@ void APandaPlayerCharacter::CatchPlayerLose()
 		FString OverlappedActor = Actors[0]->GetActorNameOrLabel();
 		UE_LOG(LogTemp, Error, TEXT("%s: Got You Player"), *OverlappedActor);
 		GetCharacterMovement()->MaxWalkSpeed = 0;
+	}
+}
+
+void APandaPlayerCharacter::ShootPoop()
+{
+	if(PooAmmo > 0)
+	{
+		const FVector SpawnLocation = ProjectileSpawnPoint->GetComponentLocation();
+		const FRotator SpawnRotation = ProjectileSpawnPoint->GetComponentRotation();
+		GetWorld()->SpawnActor<AActor>(ProjectileActorToSpawn, SpawnLocation, SpawnRotation);
+		PooAmmo -= 1;
+
+		UE_LOG(LogTemp, Display, TEXT("Ammo Left %i"), PooAmmo);
 	}
 }

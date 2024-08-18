@@ -30,4 +30,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void CollisionHit();
+
+	UFUNCTION(BlueprintCallable)
+	void PlayerPickupAmmo();
 };
