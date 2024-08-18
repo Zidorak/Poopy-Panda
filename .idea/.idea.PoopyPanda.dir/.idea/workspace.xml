@@ -9,18 +9,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e2650930-3f81-4c9d-9a02-80b38bcc0107" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/ABP_Manny.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/ABP_Manny.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Poop.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Poop.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_PoopProjectile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_PoopProjectile.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Conor/Player/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Player/BP_ThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Player/Input/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Player/Input/IMC_Default.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/ObstacleForAI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/ObstacleForAI.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/ObstacleForAI.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/ObstacleForAI.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PandaPlayerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PandaPlayerCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PandaPlayerCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PandaPlayerCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PoopyPandaCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/StarterCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PoopyPandaCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/StarterCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PoopyPandaGameMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PoopyPandaGameMode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PoopProjectile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PoopProjectile.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +149,8 @@
       <workItem from="1723930084628" duration="9351000" />
       <workItem from="1723972603987" duration="9141000" />
       <workItem from="1723982743109" duration="9877000" />
+      <workItem from="1723992801065" duration="1152000" />
+      <workItem from="1723993979007" duration="2270000" />
     </task>
     <servers />
   </component>
