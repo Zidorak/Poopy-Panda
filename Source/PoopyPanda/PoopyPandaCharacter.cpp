@@ -7,7 +7,9 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/Controller.h"
+#include "GameFramework/Actor.h"
 #include "EnhancedInputComponent.h"
+#include "Math/UnrealMathUtility.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 
@@ -16,6 +18,7 @@ DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 //////////////////////////////////////////////////////////////////////////
 // APoopyPandaCharacter
 
+// Constructer
 APoopyPandaCharacter::APoopyPandaCharacter()
 {
 	// Set size for collision capsule
@@ -34,7 +37,7 @@ APoopyPandaCharacter::APoopyPandaCharacter()
 	// instead of recompiling to adjust them
 	GetCharacterMovement()->JumpZVelocity = 700.f;
 	GetCharacterMovement()->AirControl = 0.35f;
-	GetCharacterMovement()->MaxWalkSpeed = 500.f;
+	GetCharacterMovement()->MaxWalkSpeed = 200.f;
 	GetCharacterMovement()->MinAnalogWalkSpeed = 20.f;
 	GetCharacterMovement()->BrakingDecelerationWalking = 2000.f;
 	GetCharacterMovement()->BrakingDecelerationFalling = 1500.0f;
@@ -128,3 +131,4 @@ void APoopyPandaCharacter::Look(const FInputActionValue& Value)
 		AddControllerPitchInput(LookAxisVector.Y);
 	}
 }
+
