@@ -15,10 +15,17 @@ public:
 	// Sets default values for this character's properties
 	AAI_Adult();
 
+	
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
+	
+	UFUNCTION(BlueprintCallable)
+	void Stunned();
+	UFUNCTION(BlueprintCallable)
+	void StunnedEnd();
+	
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -27,4 +34,9 @@ private:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AI Targeting", meta = (AllowPrivateAccess = "true"))
 	AActor* TargetActor;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, category = "Movement", meta = (AllowPrivateAccess = "true"))
+	float DefaultMovementSpeed = 150.f;
 };
+
+

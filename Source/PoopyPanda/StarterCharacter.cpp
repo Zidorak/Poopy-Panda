@@ -1,6 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "PoopyPandaCharacter.h"
+#include "StarterCharacter.h"
 #include "Engine/LocalPlayer.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -19,7 +19,7 @@ DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 // APoopyPandaCharacter
 
 // Constructer
-APoopyPandaCharacter::APoopyPandaCharacter()
+AStarterCharacter::AStarterCharacter()
 {
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -57,7 +57,7 @@ APoopyPandaCharacter::APoopyPandaCharacter()
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 }
 
-void APoopyPandaCharacter::BeginPlay()
+void AStarterCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
@@ -75,7 +75,7 @@ void APoopyPandaCharacter::BeginPlay()
 //////////////////////////////////////////////////////////////////////////
 // Input
 
-void APoopyPandaCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+void AStarterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	// Set up action bindings
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent)) {
@@ -85,10 +85,10 @@ void APoopyPandaCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInpu
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
 
 		// Moving
-		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &APoopyPandaCharacter::Move);
+		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AStarterCharacter::Move);
 
 		// Looking
-		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &APoopyPandaCharacter::Look);
+		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AStarterCharacter::Look);
 	}
 	else
 	{
@@ -96,7 +96,7 @@ void APoopyPandaCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInpu
 	}
 }
 
-void APoopyPandaCharacter::Move(const FInputActionValue& Value)
+void AStarterCharacter::Move(const FInputActionValue& Value)
 {
 	// input is a Vector2D
 	FVector2D MovementVector = Value.Get<FVector2D>();
@@ -119,7 +119,7 @@ void APoopyPandaCharacter::Move(const FInputActionValue& Value)
 	}
 }
 
-void APoopyPandaCharacter::Look(const FInputActionValue& Value)
+void AStarterCharacter::Look(const FInputActionValue& Value)
 {
 	// input is a Vector2D
 	FVector2D LookAxisVector = Value.Get<FVector2D>();

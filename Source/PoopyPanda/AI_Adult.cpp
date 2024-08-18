@@ -2,10 +2,8 @@
 
 
 #include "AI_Adult.h"
-
-#include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
-#include "GameFramework/MovementComponent.h"
+#include "GameFramework/Actor.h"
 
 // Sets default values
 AAI_Adult::AAI_Adult()
@@ -18,10 +16,12 @@ AAI_Adult::AAI_Adult()
 void AAI_Adult::BeginPlay()
 {
 	Super::BeginPlay();
+
+	GetCharacterMovement()->MaxWalkSpeed = DefaultMovementSpeed;
 	
 	DrawDebugSphere(GetWorld(), GetActorLocation(), 1000, 20, FColor::Red, true, -1);
 
-	//GetCharacterMovement()->MaxWalkSpeed = xxf
+	UCapsuleComponent* CapsuleCollision = AAI_Adult::GetCapsuleComponent();
 }
 
 // Called every frame
@@ -29,5 +29,19 @@ void AAI_Adult::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 }
+
+void AAI_Adult::Stunned()
+{
+	GetCharacterMovement()->MaxWalkSpeed = 0.0f;
+}
+
+void AAI_Adult::StunnedEnd()
+{
+	GetCharacterMovement()->MaxWalkSpeed = DefaultMovementSpeed;
+}
+
+
+
+
 
 
