@@ -8,6 +8,7 @@
 #include "engine/World.h"
 #include "editor/EditorEngine.h"
 #include "Math/UnrealMathUtility.h"
+#include "Perception/PawnSensingComponent.h"
 
 // Generator
 APandaPlayerCharacter::APandaPlayerCharacter()
@@ -145,4 +146,17 @@ void APandaPlayerCharacter::SpawnPoop()
 	GetWorld()->SpawnActor<AActor>(ActorToSpawn, SpawnLocation, SpawnRotation);
 
 	UE_LOG(LogTemp, Display, TEXT("Poop Spawned"));
+}
+
+void APandaPlayerCharacter::CatchPlayerLose()
+{
+	TArray<AActor*> Actors;
+	GetOverlappingActors(Actors);
+    
+	if (Actors.Num() > 0)
+	{
+		FString OverlappedActor = Actors[0]->GetActorNameOrLabel();
+		UE_LOG(LogTemp, Error, TEXT("%s: Got You Player"), *OverlappedActor);
+		GetCharacterMovement()->MaxWalkSpeed = 0;
+	}
 }

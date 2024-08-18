@@ -2,10 +2,7 @@
 
 
 #include "ObstacleForAI.h"
-
 #include "Components/BoxComponent.h"
-#include "Components/CapsuleComponent.h"
-#include "LevelInstance/LevelInstanceTypes.h"
 
 // Sets default values
 AObstacleForAI::AObstacleForAI()
@@ -16,17 +13,16 @@ AObstacleForAI::AObstacleForAI()
 	// Constructs the components.
 	BoxCollision = CreateDefaultSubobject<UBoxComponent>(TEXT("Capsule"));
 	RootComponent = BoxCollision;
+	BoxCollision->SetGenerateOverlapEvents(true);
 
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
 	StaticMesh->SetupAttachment(BoxCollision);
-
 }
 
 // Called when the game starts or when spawned
 void AObstacleForAI::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -39,18 +35,15 @@ void AObstacleForAI::Tick(float DeltaTime)
 void AObstacleForAI::CollisionHit()
 {
 	TArray<AActor*> Actors;
-	GetOverlappingActors(Actors);
+	BoxCollision->GetOverlappingActors(Actors);
 
 	if (Actors.Num() > 0)
 	{
-		LegoSteppedOn();
+		FString OverlappedActor = Actors[0]->GetActorNameOrLabel();
+		UE_LOG(LogTemp, Display, TEXT("%s: Hit the poop"), *OverlappedActor);
+		Destroy();
 	}
 }
 
-void AObstacleForAI::LegoSteppedOn()
-{
-	UE_LOG(LogTemp, Display, TEXT("LegoSteppedOn"));
-	Destroy();
-}
 
 

@@ -8,13 +8,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2650930-3f81-4c9d-9a02-80b38bcc0107" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Obstacle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BB_AdultAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BB_AdultAI.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BP_AdultAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BP_AdultAI.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BT_AdultAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BT_AdultAI.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Poop.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Poop.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Conor/Player/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Player/BP_ThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Player/Input/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Player/Input/IMC_Default.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/NT/CRURU1OT0AVBY4NX9AUOD2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/Grabber.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/Grabber.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/1T/ELHNQ6X07T40MO87N14Q4B.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/1T/ELHNQ6X07T40MO87N14Q4B.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/ObstacleForAI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/ObstacleForAI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/ObstacleForAI.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/ObstacleForAI.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PandaPlayerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PandaPlayerCharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PandaPlayerCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PandaPlayerCharacter.h" afterDir="false" />
     </list>
@@ -30,8 +35,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../CryptRaider/Source/CryptRaider/Grabber.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../CryptRaider/Source/CryptRaider/Grabber.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.3/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -45,28 +49,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Uproject.PoopyPanda.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Conor&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\Conor\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\Conor\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\Conor\\AppData\\Local\\Symbols\\src&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Uproject.PoopyPanda.executor": "Run",
+    "git-widget-placeholder": "Conor",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="PoopyPanda" type="Uproject" factoryName="rider.uproject">
       <configuration_1>
@@ -74,10 +71,10 @@
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/PoopyPanda.uproject" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
-        <option name="EXECUTABLE_PATH" value="D:\Epic Games\Unreal Engine\UE_5.3\Engine\Binaries\Win64\UnrealEditor.exe" />
-        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;E:\Unreal Engine\Poopy-Panda\PoopyPanda.uproject&quot;" />
+        <option name="EXECUTABLE_PATH" value="C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor.exe" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;D:\101385\Poopy-Panda\PoopyPanda.uproject&quot;" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
-        <option name="WORKING_DIRECTORY" value="D:\Epic Games\Unreal Engine\UE_5.3" />
+        <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="1" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="FORCE_CONSOLE" />
@@ -87,10 +84,10 @@
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/PoopyPanda.uproject" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
-        <option name="EXECUTABLE_PATH" value="D:\Epic Games\Unreal Engine\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Win64-DebugGame.exe" />
-        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;E:\Unreal Engine\Poopy-Panda\PoopyPanda.uproject&quot;" />
+        <option name="EXECUTABLE_PATH" value="C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Win64-DebugGame.exe" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;D:\101385\Poopy-Panda\PoopyPanda.uproject&quot;" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
-        <option name="WORKING_DIRECTORY" value="D:\Epic Games\Unreal Engine\UE_5.3" />
+        <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="1" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="FORCE_CONSOLE" />
@@ -100,10 +97,10 @@
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/PoopyPanda.uproject" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
-        <option name="EXECUTABLE_PATH" value="E:\Unreal Engine\Poopy-Panda\Binaries\Win64\PoopyPanda-Win64-DebugGame.exe" />
+        <option name="EXECUTABLE_PATH" value="D:\101385\Poopy-Panda\Binaries\Win64\PoopyPanda-Win64-DebugGame.exe" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
-        <option name="WORKING_DIRECTORY" value="D:\Epic Games\Unreal Engine\UE_5.3" />
+        <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="1" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="FORCE_CONSOLE" />
@@ -113,10 +110,10 @@
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/PoopyPanda.uproject" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
-        <option name="EXECUTABLE_PATH" value="E:\Unreal Engine\Poopy-Panda\Binaries\Win64\PoopyPanda.exe" />
+        <option name="EXECUTABLE_PATH" value="D:\101385\Poopy-Panda\Binaries\Win64\PoopyPanda.exe" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
-        <option name="WORKING_DIRECTORY" value="D:\Epic Games\Unreal Engine\UE_5.3" />
+        <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="1" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="FORCE_CONSOLE" />
@@ -126,10 +123,10 @@
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/PoopyPanda.uproject" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
-        <option name="EXECUTABLE_PATH" value="E:\Unreal Engine\Poopy-Panda\Binaries\Win64\PoopyPanda-Win64-Shipping.exe" />
+        <option name="EXECUTABLE_PATH" value="D:\101385\Poopy-Panda\Binaries\Win64\PoopyPanda-Win64-Shipping.exe" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
-        <option name="WORKING_DIRECTORY" value="D:\Epic Games\Unreal Engine\UE_5.3" />
+        <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="1" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="FORCE_CONSOLE" />
@@ -159,6 +156,7 @@
       <workItem from="1723916902662" duration="4778000" />
       <workItem from="1723925747426" duration="4262000" />
       <workItem from="1723930084628" duration="9351000" />
+      <workItem from="1723972603987" duration="9141000" />
     </task>
     <servers />
   </component>
@@ -167,6 +165,7 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

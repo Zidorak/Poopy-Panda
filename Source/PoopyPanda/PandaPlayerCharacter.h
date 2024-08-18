@@ -32,13 +32,15 @@ protected:
 	void CheckScoreForMovement();
 	UFUNCTION(BlueprintCallable)
 	void SpawnPoop();
+	UFUNCTION(BlueprintCallable)
+	void CatchPlayerLose();
 
 	// Main Movement Variables
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
 	float DefaultSpeed = 350.f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
 	float SprintSpeed = 800.f;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Movement")
 	float DashDistance = 2000;
 	
 public:	
@@ -58,6 +60,7 @@ private:
 	float DashTime = 3;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Boost", meta = (AllowPrivateAccess = "true"))
 	bool DashActive = false;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Boost", meta = (AllowPrivateAccess = "true"))
 	float DashHoldTimer = 0;;
 #pragma endregion
 	
