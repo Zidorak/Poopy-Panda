@@ -42,13 +42,6 @@ void APoopProjectile::Tick(float DeltaTime)
 
 void APoopProjectile::CollisionHit()
 {
-	TArray<AActor*> Actors;
-	sphere->GetOverlappingActors(Actors);
-	
-	if (Actors.Num() > 0)
-	{
-		FString OverlappedActor = Actors[0]->GetActorNameOrLabel();
-		UE_LOG(LogTemp, Display, TEXT("%s: Hit the poop"), *OverlappedActor);
-		Destroy();
-	}
+	UE_LOG(LogTemp, Display, TEXT("BULLS - HIT"));
+	Destroy();
 }
