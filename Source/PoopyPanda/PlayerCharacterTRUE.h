@@ -103,6 +103,13 @@ private:
 	UPROPERTY(EditDefaultsOnly, meta = (AllowPrivateAccess = "true"))
 	UStaticMeshComponent* NappyRef;
 
+	UPROPERTY(EditAnywhere)
+	UStaticMesh* Nappy1;
+	UPROPERTY(EditAnywhere)
+	UStaticMesh* Nappy2;
+	UPROPERTY(EditAnywhere)
+	UStaticMesh* Nappy3;
+
 	
 	
 	// Called to bind functionality to input

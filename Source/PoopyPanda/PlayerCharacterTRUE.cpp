@@ -174,34 +174,21 @@ void APlayerCharacterTRUE::CheckPooBarScale()
 	
 		if (PooBar <= 0.33)
 		{
-			const FVector NappyScaleSmall = FVector(0.33, 0.33, 0.33);
-			const FVector NewScaleSmall = FMath::VInterpConstantTo(CurrentNappyScale, NappyScaleSmall, GetWorld()->GetDeltaSeconds(), 2.f);
-			NappyRef->SetRelativeScale3D(NewScaleSmall);
-			const FVector NewLocation = FVector(-7.819999,-2.295765,-23.704611);
-			NappyRef->SetRelativeLocation(NewLocation, false);
+			NappyRef->SetStaticMesh(Nappy1);
 		
 			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Small"));
 		}
 	
 		if(PooBar >= 0.34 && PooBar <= 0.66)
 		{
-			
-			const FVector NappyScaleMedium = FVector(0.500000, 0.355725, 0.395985);
-			const FVector NewScaleMedium = FMath::VInterpConstantTo(CurrentNappyScale, NappyScaleMedium, GetWorld()->GetDeltaSeconds(), 2.f);
-			NappyRef->SetRelativeScale3D(NewScaleMedium);
-			const FVector NewLocation = FVector(-15.791186,-2.295765,-23.704610);
-			NappyRef->SetRelativeLocation(NewLocation, false);
+			NappyRef->SetStaticMesh(Nappy2);
 			
 			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Med"));
 		}
 	
 		if(PooBar >= 0.67)
 		{
-			const FVector NappyScaleLarge = FVector(0.644743,0.538645,0.550500);
-			const FVector NewScaleLarge = FMath::VInterpConstantTo(CurrentNappyScale, NappyScaleLarge, GetWorld()->GetDeltaSeconds(), 2.f);
-			NappyRef->SetRelativeScale3D(NewScaleLarge);
-			const FVector NewLocation = FVector(-24.067790,-2.295765,-23.704610);
-			NappyRef->SetRelativeLocation(NewLocation, false);
+			NappyRef->SetStaticMesh(Nappy3);
 			
 			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Large"));
 		}
