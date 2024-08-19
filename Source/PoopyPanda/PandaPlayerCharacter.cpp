@@ -50,7 +50,7 @@ void APandaPlayerCharacter::Tick(float DeltaTime)
 	}
 
 	// If player is charging dash, calls the function to generate the float timer
-	if(DashActive == true && PooBar >= 25)
+	if(DashActive == true && PooBar >= 0.25)
 	{DashCharge(DeltaTime);}
 }
 
@@ -206,19 +206,6 @@ void APandaPlayerCharacter::SpawnPoop()
 	}
 }
 
-void APandaPlayerCharacter::CatchPlayerLose()
-{
-	TArray<AActor*> Actors;
-	GetOverlappingActors(Actors);
-    
-	if (Actors.Num() > 0)
-	{
-		FString OverlappedActor = Actors[0]->GetActorNameOrLabel();
-		UE_LOG(LogTemp, Error, TEXT("%s: Got You Player"), *OverlappedActor);
-		GetCharacterMovement()->MaxWalkSpeed = 0;
-	}
-}
-
 void APandaPlayerCharacter::ShootPoop()
 {
 	if(PooAmmo > 0)
@@ -231,3 +218,14 @@ void APandaPlayerCharacter::ShootPoop()
 		UE_LOG(LogTemp, Display, TEXT("Ammo Left %i"), PooAmmo);
 	}
 }
+
+void APandaPlayerCharacter::PickUp(float PickupValue)
+{
+	PooBar += PickupValue;
+
+	if(PooBar > 1)
+	{
+		PooBar = PooBarMax;
+	}
+}
+

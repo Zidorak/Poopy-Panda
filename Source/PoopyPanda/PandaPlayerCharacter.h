@@ -33,10 +33,10 @@ protected:
 	UFUNCTION(BlueprintCallable)
 	void SpawnPoop();
 	UFUNCTION(BlueprintCallable)
-	void CatchPlayerLose();
-	UFUNCTION(BlueprintCallable)
 	void ShootPoop();
-
+	UFUNCTION(BlueprintCallable)
+	void PickUp(float PickupValue);
+	
 	// Main Movement Variables
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
 	float DefaultSpeed = 350.f;
