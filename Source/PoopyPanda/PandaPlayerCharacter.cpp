@@ -3,9 +3,6 @@
 #include "PandaPlayerCharacter.h"
 
 #include "GameFramework/CharacterMovementComponent.h"
-#include "engine/Blueprint.h"
-#include "engine/World.h"
-#include "editor/EditorEngine.h"
 #include "Math/UnrealMathUtility.h"
 
 // Generator

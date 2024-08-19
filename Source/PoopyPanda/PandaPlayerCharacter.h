@@ -101,6 +101,4 @@ private:
 	UStaticMeshComponent* NappyRef;
 
 	
-	
-	
 };
