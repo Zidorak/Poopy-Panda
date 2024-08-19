@@ -32,7 +32,8 @@ void APandaPlayerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	CheckPooBarScale();
+	//CheckPooBarScale();
+
 
 	// If the stamina is less than max and not sprinting, does a short delay before interpolating the stamina back to max
 	if (Stamina < MaxStamina && IsSprinting == false)
