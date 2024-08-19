@@ -18,8 +18,6 @@ void AAI_Adult::BeginPlay()
 	Super::BeginPlay();
 
 	GetCharacterMovement()->MaxWalkSpeed = DefaultMovementSpeed;
-	
-	DrawDebugSphere(GetWorld(), GetActorLocation(), 1000, 20, FColor::Red, true, -1);
 
 	UCapsuleComponent* CapsuleCollision = AAI_Adult::GetCapsuleComponent();
 }
