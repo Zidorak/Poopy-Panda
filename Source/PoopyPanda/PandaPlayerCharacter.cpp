@@ -25,6 +25,9 @@ APandaPlayerCharacter::APandaPlayerCharacter()
 void APandaPlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
+	// Gets a ref to the nappy component
+	NappyRef = this->FindComponentByTag<UStaticMeshComponent>(TEXT("Nappy"));
 }
 
 // Tick
@@ -32,7 +35,9 @@ void APandaPlayerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	// If the stamina is less than max and not sprinting, does a short delay before interping the stamina back to max
+	CheckPooBarScale();
+
+	// If the stamina is less than max and not sprinting, does a short delay before interpolating the stamina back to max
 	if (Stamina < MaxStamina && IsSprinting == false)
 	{
 		StaminaDelayTime -= 1 * DeltaTime;
@@ -45,7 +50,7 @@ void APandaPlayerCharacter::Tick(float DeltaTime)
 	}
 
 	// If player is charging dash, calls the function to generate the float timer
-	if(DashActive == true && PooBar >= 25)
+	if(DashActive == true && PooBar >= 0.25)
 	{DashCharge(DeltaTime);}
 }
 
@@ -53,7 +58,7 @@ void APandaPlayerCharacter::StartSprint()
 {
 	if(Stamina > 0)
 	{
-		// Sets the max walk speed higher if sprinting, and interps the stamina by the usage. 
+		// Sets the max walk speed higher if sprinting, and interpolates the stamina by the usage. 
 		IsSprinting = true;
 		StaminaDelayTime = 3.f;
 		GetCharacterMovement()->MaxWalkSpeed = SprintSpeed;
@@ -98,49 +103,49 @@ void APandaPlayerCharacter::Dash()
 	}
 	
 	// Converts the delta time float into an int and puts it into a switch.
-	switch (int32 DashHoldTimerInt = (int32)DashHoldTimer)
+	switch ((int32)DashHoldTimer)
 	{
 	case 1:
-		if(PooBar >= 20)
+		if(PooBar >= 0.20)
 		{
 			DashDistance = 500;
-			PooBar -= 20;
+			PooBar -= 0.20;
 			LaunchCharacter(ForwardDir * DashDistance, true, true);
 		}
 		break;
 
 	case 2:
-		if(PooBar >= 40)
+		if(PooBar >= 0.40)
 		{
 			DashDistance = 1000;
-			PooBar -= 40;
+			PooBar -= 0.40;
 			LaunchCharacter(ForwardDir * DashDistance, true, true);
 		}
 		break;
 
 	case 3:
-		if(PooBar >= 60)
+		if(PooBar >= 0.60)
 		{
 			DashDistance = 1500;
-			PooBar -= 60;
+			PooBar -= 0.60;
 			LaunchCharacter(ForwardDir * DashDistance, true, true);
 		}
 		break;
 
 	case 4:
-		if(PooBar >= 80)
+		if(PooBar >= 0.80)
 		{
 			DashDistance = 2000;
-			PooBar -= 80;
+			PooBar -= 0.80;
 			LaunchCharacter(ForwardDir * DashDistance, true, true);
 		}
 		break;
 
 	case 5:
-		if (PooBar >= 100)
+		if (PooBar >= 1)
 		{
 			DashDistance = 2500;
-			PooBar -= 100;
+			PooBar -= 1;
 			LaunchCharacter(ForwardDir * DashDistance, true, true);
 		}
 		break;
@@ -152,36 +157,52 @@ void APandaPlayerCharacter::Dash()
 	DashHoldTimer = 0.f;
 
 	UE_LOG(LogTemp, Display, TEXT("Poo Bar Remaining: %f"), PooBar);
-}
+} 
 
-void APandaPlayerCharacter::CheckScoreForMovement()
+void APandaPlayerCharacter::CheckPooBarScale()
 {
-	// Programme this code for pickups // 
+	FVector CurrentNappyScale = NappyRef->GetComponentScale();
+	UE_LOG(LogTemp, Display, TEXT("Nappy Switch Activated"));
+	
+		if (PooBar <= 0.33)
+		{
+			FVector NappyScaleSmall = FVector(0.20f, 0.20f, 0.20f);
+			FVector NewScaleSmall = FMath::VInterpConstantTo(CurrentNappyScale, NappyScaleSmall, GetWorld()->GetDeltaSeconds(), 2.f);
+			NappyRef->SetRelativeScale3D(NewScaleSmall);
+			FVector NewLocation = FVector(48.69, 0, -0.4255);
+			NappyRef->SetRelativeLocation(NewLocation, false);
+			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Small"));
+		}
+	
+		if(PooBar >= 0.34 && PooBar <= 0.66)
+		{
+			FVector NappyScaleMedium = FVector(0.2625f, 0.2625f, 0.2625f);
+			FVector NewScaleMedium = FMath::VInterpConstantTo(CurrentNappyScale, NappyScaleMedium, GetWorld()->GetDeltaSeconds(), 2.f);
+			NappyRef->SetRelativeScale3D(NewScaleMedium);
+			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Med"));
+		}
+	
+		if(PooBar >= 0.67)
+		{
+			FVector NappyScaleLarge = FVector(0.457f, 0.4f, 0.4f);
+			FVector NewScaleLarge = FMath::VInterpConstantTo(CurrentNappyScale, NappyScaleLarge, GetWorld()->GetDeltaSeconds(), 2.f);
+			NappyRef->SetRelativeScale3D(NewScaleLarge);
+			FVector NewLocation = FVector(33.92, 0, -0.425);
+			NappyRef->SetRelativeLocation(NewLocation, false);
+			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Large"));
+		}
 }
 
 void APandaPlayerCharacter::SpawnPoop()
 {
-	if(PooBar >= 20.f)
+	if(PooBar >= 0.20)
 	{
 		const FVector SpawnLocation = SpawnPoint->GetComponentLocation();
 		const FRotator SpawnRotation = SpawnPoint->GetComponentRotation();
 		GetWorld()->SpawnActor<AActor>(ActorToSpawn, SpawnLocation, SpawnRotation);
-		PooBar -= 20.f;
+		PooBar -= 0.20f;
 
 		UE_LOG(LogTemp, Display, TEXT("Poop Spawned"));
-	}
-}
-
-void APandaPlayerCharacter::CatchPlayerLose()
-{
-	TArray<AActor*> Actors;
-	GetOverlappingActors(Actors);
-    
-	if (Actors.Num() > 0)
-	{
-		FString OverlappedActor = Actors[0]->GetActorNameOrLabel();
-		UE_LOG(LogTemp, Error, TEXT("%s: Got You Player"), *OverlappedActor);
-		GetCharacterMovement()->MaxWalkSpeed = 0;
 	}
 }
 
@@ -197,3 +218,14 @@ void APandaPlayerCharacter::ShootPoop()
 		UE_LOG(LogTemp, Display, TEXT("Ammo Left %i"), PooAmmo);
 	}
 }
+
+void APandaPlayerCharacter::PickUp(float PickupValue)
+{
+	PooBar += PickupValue;
+
+	if(PooBar > 1)
+	{
+		PooBar = PooBarMax;
+	}
+}
+

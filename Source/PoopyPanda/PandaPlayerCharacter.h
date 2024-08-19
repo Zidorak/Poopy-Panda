@@ -26,17 +26,17 @@ protected:
 	void EndSprint();
 	UFUNCTION(BlueprintCallable)
 	void Dash();
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION()
 	int DashCharge(float DeltaTime);
 	UFUNCTION(BlueprintCallable)
-	void CheckScoreForMovement();
+	void CheckPooBarScale();
 	UFUNCTION(BlueprintCallable)
 	void SpawnPoop();
 	UFUNCTION(BlueprintCallable)
-	void CatchPlayerLose();
-	UFUNCTION(BlueprintCallable)
 	void ShootPoop();
-
+	UFUNCTION(BlueprintCallable)
+	void PickUp(float PickupValue);
+	
 	// Main Movement Variables
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
 	float DefaultSpeed = 350.f;
@@ -51,6 +51,8 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats")
 	float PooBar = 0.f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats")
+	float PooBarMax = 1.f;
 	UPROPERTY(editanywhere, blueprintReadWrite, Category = "Player Stats")
 	int32 PooAmmo = 0;
 	int32 MaxPooAmmo = 3;
@@ -94,6 +96,9 @@ private:
 
 	UPROPERTY(EditDefaultsOnly, meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<AActor> ProjectileActorToSpawn;
+
+	UPROPERTY(EditDefaultsOnly, meta = (AllowPrivateAccess = "true"))
+	UStaticMeshComponent* NappyRef;
 
 	
 	
