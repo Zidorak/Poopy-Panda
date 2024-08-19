@@ -8,7 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2650930-3f81-4c9d-9a02-80b38bcc0107" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Camera.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Camera.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BP_AdultAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BP_AdultAI.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Conor/Player/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Player/BP_ThirdPersonCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PandaPlayerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PandaPlayerCharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PandaPlayerCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PandaPlayerCharacter.h" afterDir="false" />
@@ -40,21 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Uproject.PoopyPanda.executor": "Run",
-    "git-widget-placeholder": "Conor",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Uproject.PoopyPanda.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Conor&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="PoopyPanda" type="Uproject" factoryName="rider.uproject">
       <configuration_1>
@@ -156,6 +157,7 @@
       <workItem from="1724018652973" duration="3814000" />
       <workItem from="1724027939607" duration="733000" />
       <workItem from="1724054905274" duration="6829000" />
+      <workItem from="1724062647273" duration="1502000" />
     </task>
     <servers />
   </component>
