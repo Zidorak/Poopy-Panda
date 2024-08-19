@@ -103,6 +103,9 @@ void AStarterCharacter::Move(const FInputActionValue& Value)
 
 	if (Controller != nullptr)
 	{
+		
+		
+
 		// find out which way is forward
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0, Rotation.Yaw, 0);
@@ -113,9 +116,21 @@ void AStarterCharacter::Move(const FInputActionValue& Value)
 		// get right vector 
 		const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
-		// add movement 
-		AddMovementInput(ForwardDirection, MovementVector.Y);
-		AddMovementInput(RightDirection, MovementVector.X);
+		// get up vector
+		const FVector UpDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Z);
+
+		// add movement
+		if(IsClimbing == false)
+		{
+			AddMovementInput(ForwardDirection, MovementVector.Y);
+			AddMovementInput(RightDirection, MovementVector.X);
+		}
+		else if(IsClimbing == true)
+		{
+			AddMovementInput(RightDirection, MovementVector.X);
+			AddMovementInput(UpDirection, MovementVector.Y);
+		}
+		
 	}
 }
 

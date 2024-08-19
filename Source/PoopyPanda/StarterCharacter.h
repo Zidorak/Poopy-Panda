@@ -44,6 +44,9 @@ class AStarterCharacter : public ACharacter
 
 public:
 	AStarterCharacter();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool IsClimbing = false;
 	
 
 protected:
