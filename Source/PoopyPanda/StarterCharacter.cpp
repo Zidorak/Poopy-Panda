@@ -22,7 +22,7 @@ DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 AStarterCharacter::AStarterCharacter()
 {
 	// Set size for collision capsule
-	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
+	GetCapsuleComponent()->InitCapsuleSize(0.f, 0.f);
 		
 	// Don't rotate when the controller rotates. Let that just affect the camera.
 	bUseControllerRotationPitch = false;

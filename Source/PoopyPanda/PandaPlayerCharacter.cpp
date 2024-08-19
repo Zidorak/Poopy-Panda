@@ -32,8 +32,7 @@ void APandaPlayerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	//CheckPooBarScale();
-
+	CheckPooBarScale();
 
 	// If the stamina is less than max and not sprinting, does a short delay before interpolating the stamina back to max
 	if (Stamina < MaxStamina && IsSprinting == false)
@@ -164,28 +163,30 @@ void APandaPlayerCharacter::CheckPooBarScale()
 	
 		if (PooBar <= 0.33)
 		{
-			FVector NappyScaleSmall = FVector(0.20f, 0.20f, 0.20f);
+			FVector NappyScaleSmall = FVector(0.35, 0.35, 0.35);
 			FVector NewScaleSmall = FMath::VInterpConstantTo(CurrentNappyScale, NappyScaleSmall, GetWorld()->GetDeltaSeconds(), 2.f);
 			NappyRef->SetRelativeScale3D(NewScaleSmall);
-			FVector NewLocation = FVector(48.69, 0, -0.4255);
+			FVector NewLocation = FVector(-4.997837, -0.594094, -7.256297);
 			NappyRef->SetRelativeLocation(NewLocation, false);
 			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Small"));
 		}
 	
 		if(PooBar >= 0.34 && PooBar <= 0.66)
 		{
-			FVector NappyScaleMedium = FVector(0.2625f, 0.2625f, 0.2625f);
+			FVector NappyScaleMedium = FVector(0.45, 0.45, 0.45);
 			FVector NewScaleMedium = FMath::VInterpConstantTo(CurrentNappyScale, NappyScaleMedium, GetWorld()->GetDeltaSeconds(), 2.f);
 			NappyRef->SetRelativeScale3D(NewScaleMedium);
+			FVector NewLocation = FVector(-10.017434,-0.594094,-7.256297);
+			NappyRef->SetRelativeLocation(NewLocation, false);
 			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Med"));
 		}
 	
 		if(PooBar >= 0.67)
 		{
-			FVector NappyScaleLarge = FVector(0.457f, 0.4f, 0.4f);
+			FVector NappyScaleLarge = FVector(0.6, 0.6, 0.6);
 			FVector NewScaleLarge = FMath::VInterpConstantTo(CurrentNappyScale, NappyScaleLarge, GetWorld()->GetDeltaSeconds(), 2.f);
 			NappyRef->SetRelativeScale3D(NewScaleLarge);
-			FVector NewLocation = FVector(33.92, 0, -0.425);
+			FVector NewLocation = FVector(-20.987179,-0.594094,-7.256298);
 			NappyRef->SetRelativeLocation(NewLocation, false);
 			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Large"));
 		}
