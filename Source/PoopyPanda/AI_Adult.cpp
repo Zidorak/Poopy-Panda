@@ -2,6 +2,8 @@
 
 
 #include "AI_Adult.h"
+
+#include "AsyncTreeDifferences.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Actor.h"
 
@@ -20,6 +22,8 @@ void AAI_Adult::BeginPlay()
 	GetCharacterMovement()->MaxWalkSpeed = DefaultMovementSpeed;
 
 	UCapsuleComponent* CapsuleCollision = AAI_Adult::GetCapsuleComponent();
+
+	GetWorld()->GetTimerManager().SetTimer(TimerForDifficultyIncrease, this, &AAI_Adult::OnTimer, 1.0f, true);
 }
 
 // Called every frame
@@ -37,6 +41,60 @@ void AAI_Adult::StunnedEnd()
 {
 	GetCharacterMovement()->MaxWalkSpeed = DefaultMovementSpeed;
 }
+
+void AAI_Adult::OnTimer()
+{
+	++TimerCount;
+	UE_LOG(LogTemp, Log, TEXT("Timer Tick: %d"), TimerCount);
+
+	switch(TimerCount)
+	{
+		case 1:
+			if (TimerCount == 60)
+			{
+				GetCharacterMovement()->MaxWalkSpeed = 300.0f;
+				UE_LOG(LogTemp, Display, TEXT("Set Speed to min"));
+			}
+		break;
+
+		case 2:
+			if (TimerCount == 180)
+			{
+				GetCharacterMovement()->MaxWalkSpeed = 350.0f;
+				UE_LOG(LogTemp, Display, TEXT("Set Speed to med"));
+			}
+		break;
+
+		case 3:
+		if (TimerCount == 300)
+			{
+				GetCharacterMovement()->MaxWalkSpeed = 400.0f;
+			UE_LOG(LogTemp, Display, TEXT("Set Speed to high"));
+			}
+		break;
+		
+	default:
+			break;
+	}
+
+	if(TimerCount == 310)
+		{
+			GetWorld()->GetTimerManager().ClearTimer(TimerForDifficultyIncrease);
+		}
+	
+}
+
+void AAI_Adult	::EndPlay(const EEndPlayReason::Type EndPlayReason)
+{
+
+	Super::EndPlay(EndPlayReason);
+	
+	GetWorld()->GetTimerManager().ClearTimer(TimerForDifficultyIncrease);
+}
+
+		
+				
+
 
 
 

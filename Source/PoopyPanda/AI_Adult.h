@@ -15,8 +15,6 @@ public:
 	// Sets default values for this character's properties
 	AAI_Adult();
 
-	
-
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -36,7 +34,13 @@ private:
 	AActor* TargetActor;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, category = "Movement", meta = (AllowPrivateAccess = "true"))
-	float DefaultMovementSpeed = 150.f;
-};
+	float DefaultMovementSpeed = 250.f;
 
+	// Function varaibles for timer;
+	FTimerHandle TimerForDifficultyIncrease;
+	int32 TimerCount = 0;
+	void OnTimer();
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
+
+};
 

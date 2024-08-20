@@ -119,7 +119,7 @@ void APlayerCharacterTRUE::Dash()
 	case 1:
 		if(PooBar >= 0.20)
 		{
-			DashDistance = 500;
+			DashDistance = 1000;
 			PooBar -= 0.20;
 			LaunchCharacter(ForwardDir * DashDistance, true, true);
 		}
@@ -128,7 +128,7 @@ void APlayerCharacterTRUE::Dash()
 	case 2:
 		if(PooBar >= 0.40)
 		{
-			DashDistance = 1000;
+			DashDistance = 1500;
 			PooBar -= 0.40;
 			LaunchCharacter(ForwardDir * DashDistance, true, true);
 		}
@@ -137,7 +137,7 @@ void APlayerCharacterTRUE::Dash()
 	case 3:
 		if(PooBar >= 0.60)
 		{
-			DashDistance = 1500;
+			DashDistance = 2000;
 			PooBar -= 0.60;
 			LaunchCharacter(ForwardDir * DashDistance, true, true);
 		}
@@ -146,7 +146,7 @@ void APlayerCharacterTRUE::Dash()
 	case 4:
 		if(PooBar >= 0.80)
 		{
-			DashDistance = 2000;
+			DashDistance = 2500;
 			PooBar -= 0.80;
 			LaunchCharacter(ForwardDir * DashDistance, true, true);
 		}
@@ -155,7 +155,7 @@ void APlayerCharacterTRUE::Dash()
 	case 5:
 		if (PooBar >= 1)
 		{
-			DashDistance = 2500;
+			DashDistance = 3000;
 			PooBar -= 1;
 			LaunchCharacter(ForwardDir * DashDistance, true, true);
 		}
