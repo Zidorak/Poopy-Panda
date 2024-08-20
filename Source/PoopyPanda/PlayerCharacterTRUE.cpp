@@ -54,7 +54,7 @@ void APlayerCharacterTRUE::Tick(float DeltaTime)
 	}
 
 	// If player is charging dash, calls the function to generate the float timer
-	if(DashActive == true && PooBar >= 0.25)
+	if(DashActive == true && PooBar >= 0.20)
 	{DashCharge(DeltaTime);}
 
 }
@@ -106,13 +106,9 @@ void APlayerCharacterTRUE::Dash()
 	// If tapped, sets to the first case, and Caps the timer to 5 seconds if held for longer.
 	if(DashHoldTimer > 5)
 	{
-		DashHoldTimer = 5;
+		DashHoldTimer = 5 ;
 	}
-	if(DashHoldTimer < 1 && DashHoldTimer > 0.1)
-	{
-		DashHoldTimer = 1;
-	}
-	
+
 	// Converts the delta time float into an int and puts it into a switch.
 	switch ((int32)DashHoldTimer)
 	{
@@ -153,7 +149,7 @@ void APlayerCharacterTRUE::Dash()
 		break;
 
 	case 5:
-		if (PooBar >= 1)
+		if (PooBar == 1)
 		{
 			DashDistance = 3000;
 			PooBar -= 1;
@@ -162,7 +158,6 @@ void APlayerCharacterTRUE::Dash()
 		break;
 
 		default:
-			DashDistance = 0;
 		return;
 	}
 	DashHoldTimer = 0.f;

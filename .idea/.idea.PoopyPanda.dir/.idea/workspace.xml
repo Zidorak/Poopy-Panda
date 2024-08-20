@@ -8,20 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2650930-3f81-4c9d-9a02-80b38bcc0107" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/ABP_Manny.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/ABP_Manny.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Manny/BS_MM_WalkRun.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Manny/BS_MM_WalkRun.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BP_AIController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BP_AIController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BP_AdultAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BP_AdultAI.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BT_Tasks/BTT_Stunned.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BT_Tasks/BTT_Stunned.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Camera.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Camera.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Player/BP_PlayerCharacterTRUE.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Player/BP_PlayerCharacterTRUE.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FZ/4XWWUGWFDLX56REQRH8Z9W.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FZ/4XWWUGWFDLX56REQRH8Z9W.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/QS/VHQF8JWOATZI5V3ZVY5YTM.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/QS/VHQF8JWOATZI5V3ZVY5YTM.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/CJ/ZQ5BFL59YGMQUT9ZD7CAHJ.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/CJ/ZQ5BFL59YGMQUT9ZD7CAHJ.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/MM/5416TNIX8GKJW3B714Y6WF.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/MM/5416TNIX8GKJW3B714Y6WF.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,6 +168,7 @@
       <workItem from="1724151040800" duration="1385000" />
       <workItem from="1724152483451" duration="2821000" />
       <workItem from="1724156572385" duration="750000" />
+      <workItem from="1724162165322" duration="95000" />
     </task>
     <servers />
   </component>
