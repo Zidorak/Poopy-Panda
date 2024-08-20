@@ -8,23 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2650930-3f81-4c9d-9a02-80b38bcc0107" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Karena/Nappies/Nappy_01_clean.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Karena/Nappies/Nappy_01_clean.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Karena/Nappies/Nappy_02_dirty.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Karena/Nappies/Nappy_02_dirty.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Karena/Nappies/Nappy_03_loaded.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Karena/Nappies/Nappy_03_loaded.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/Materials/Mat_Poop.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Assets/Materials/Mat_Poop.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/Meshes/Shit_Group__1_.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/Meshes/Shit_Single.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Assets/Meshes/Shit_Single.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Camera.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Camera.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_LensCover.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_LensCover.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Poop.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Poop.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_PoopProjectile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_PoopProjectile.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Conor/Player/BP_PlayerCharacterTRUE.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Player/BP_PlayerCharacterTRUE.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/9Q/9MVQ1XZ5CUAH0YEASJA25Z.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QM/79Y8E0I70MIW4270K8OMXD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QM/79Y8E0I70MIW4270K8OMXD.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/JD/OW03TRXCV7FEQMD4VJW7SW.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Levels/PoopyPanda.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Levels/PoopyPanda.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Rosty/PickUps/BP_Pigeon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Rosty/PickUps/BP_Pigeon.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Rosty/PickUps/BP_Spider.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Rosty/PickUps/BP_Spider.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/CJ/ZQ5BFL59YGMQUT9ZD7CAHJ.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/CJ/ZQ5BFL59YGMQUT9ZD7CAHJ.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +174,7 @@
       <workItem from="1724092025359" duration="3542000" />
       <workItem from="1724105158393" duration="3000" />
       <workItem from="1724106009816" duration="891000" />
+      <workItem from="1724118663046" duration="746000" />
     </task>
     <servers />
   </component>
