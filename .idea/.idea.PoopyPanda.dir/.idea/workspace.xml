@@ -8,10 +8,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2650930-3f81-4c9d-9a02-80b38bcc0107" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Adam/Textures/Window_Wall/M_Window_Wall.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Adam/Textures/Window_Wall/M_Window_Wall.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/BP_Gamemode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/BP_Gamemode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/Conors_Playground.umap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_PoopProjectile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_PoopProjectile.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/Player/BP_PlayerCharacterTRUE.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Player/BP_PlayerCharacterTRUE.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/Player/Input/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Player/Input/IMC_Default.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Rosty/Launch/BP_LaunchPad.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Rosty/Launch/BP_LaunchPad.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Rosty/PickUps/BP_MilkBottle.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Rosty/PickUps/BP_MilkBottle.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Rosty/PickUps/BP_Pigeon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Rosty/PickUps/BP_Pigeon.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Rosty/PickUps/BP_Spider.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Rosty/PickUps/BP_Spider.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/0/2X/3ENRLSXM74UEW0JNGYGF4B.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/0/WR/OZ4DUR5VEHB5G4AV0SXK93.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/1/LQ/12862AHV771Q0Y5HJQLGDV.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/1/LY/ZYZ3YCGQC81K1II0GYL5T5.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/2/W8/D9ROCORD41LSK7FCDCV2GR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/3/1N/G7T9GAKO6GZCUB6284Z8H7.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/3/D8/C8QR4WXNK6PIXLYB051L68.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/3/J5/UTB0B3TK7LJELLZ83Z4E52.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/3/YD/QMDERVY0UVJHM1ATM91DF3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/4/LP/ABOTGUFZU683RER3S6ZT2G.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/5/3T/T2S5DY6TA080IS462VGF55.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/5/AP/XPJXYRTH47Y4DOAUV9YZBR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/5/D4/REFWNH4F1NRA3CLLBHRNS9.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/6/BQ/1OH5I6OK8HMOSNC35DO4HB.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/6/RD/XNTKN37GZ936492BKQO0A3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/7/CS/HFS0DR9FBZ9LT18PVZ2XYQ.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/7/NM/NZC03LHB7L7JV2YH1E7JJS.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/7/RC/7W9U9QOXANPSJINKKBZPUL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/8/AC/1G5RU4E5PZJVUJLUYH6S0V.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/8/E3/XBCC4N1MECRCEUQK1OOD3T.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/8/K1/5QOS9BEXQGL2VCBAIGVOXM.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/8/M1/QJNEKX69F2JR9F3RIADOA5.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/8/UA/T6AKPHGSYPJC4F23LDIBOD.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/9/0E/K98ZCGJQ1TG337O3O0FQA2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/9/9S/CIPH2FRVHVO2NH1O74SBI2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/9/9Y/QVYFODC936O4S2WQWHAAWV.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/9/FS/9EU2F4OVCDYFJTMC8VCNN7.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/9/I4/66EL6UDTL9P3HFRVYYZXPU.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/9/MC/2WA0UQMF4N5T9ZYM3QWHI6.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/9/MC/4HGX3LU1H8AJ0YCSDDACS5.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/A/AQ/0JPRWQMD39XGK6GEP938B3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/A/F9/CY099DGNAYYBKCV9QTX0YF.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/A/K8/2SBCOEY7HFHL0PBXQ0HTZX.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/A/XJ/GM0UB1Q64BSP86E97PG4RC.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/B/UQ/YE4A2G84YIDB6Z7SCQZF38.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/B/VV/GQPXRJEXVJKINV9I43XCIU.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/C/C2/WKJFVQ2BT249KSBBL75VFZ.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/C/IP/XWPMC66XIFTG8HMI8XC7QI.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/C/MU/XPRG5H5S7AK3U5T7M7U3BE.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/C/RU/PNDDD6OXEYUSSFPB1DPJM2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/D/9W/UK5S14U9LTGOPZOG3U6L71.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/D/WM/XVC60RBUUR2LJ9IZA7K9JB.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/E/2S/PX1WD9HB86Y5LJ8DUM33SY.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Conor/Conors_Playground/E/JJ/JJ1AP8H21UU2FNPC83UEZ0.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +218,7 @@
       <workItem from="1724118663046" duration="746000" />
       <workItem from="1724143635804" duration="18000" />
       <workItem from="1724143859003" duration="627000" />
+      <workItem from="1724146980918" duration="1130000" />
     </task>
     <servers />
   </component>
