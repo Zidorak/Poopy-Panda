@@ -59,6 +59,10 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Nappy Function");
 	bool CheckNappyNow = false;
+	
+	// Shoot Poop Classes
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+	USceneComponent* ProjectileSpawnPoint;
 
 private:
 	
@@ -94,8 +98,6 @@ private:
 	TSubclassOf<AActor> ActorToSpawn;
 
 	// Shoot Poop Classes
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-	USceneComponent* ProjectileSpawnPoint;
 
 	UPROPERTY(EditDefaultsOnly, meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<AActor> ProjectileActorToSpawn;

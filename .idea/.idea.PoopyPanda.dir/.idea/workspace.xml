@@ -8,215 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2650930-3f81-4c9d-9a02-80b38bcc0107" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BP_AdultAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BP_AdultAI.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/Animation/Stall_Soccerball__2_.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/Animation/Stall_Soccerball__2__Montage.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Animations/ThirdPersonIdle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Animations/ThirdPersonJump_End.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Animations/ThirdPersonJump_Loop.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Animations/ThirdPersonJump_Start.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Animations/ThirdPersonRun.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Animations/ThirdPersonWalk.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Animations/ThirdPerson_AnimBP.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Animations/ThirdPerson_Jump.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Materials/M_UE4Man_Body.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Mesh/SK_Mannequin.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Textures/UE4Man_Logo_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Environment_Materials/MAT_BASIC_FLOOR.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Environment_Materials/MAT_FLOOR_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Environment_Materials/MAT_FLOOR_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Environment_Materials/MAT_PROMO.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Master_Materials/MAT_A_01.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Master_Materials/MAT_A_02.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Master_Materials/MAT_A_03.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Master_Materials/MAT_A_04.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Master_Materials/MAT_H_A1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Master_Materials/MAT_L_00.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Master_Materials/MAT_L_01.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Master_Materials/MAT_P_00.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Master_Materials/MAT_T_00.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Master_Materials/MAT_T_01.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Master_Materials/MAT_T_02.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Master_Materials/MAT_T_03.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_01_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_01_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_01_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_01_4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_01_5.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_02_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_02_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_02_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_02_4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_03_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_03_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_03_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_03_4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_04_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_04_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_04_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_A_04_4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_L_01_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_L_01_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_L_01_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_L_01_4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_L_01_5.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_T_01_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_T_01_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_T_01_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_T_01_4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_T_01_5.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_T_03_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_T_03_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_T_03_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_T_03_4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Materials/Material_Instances/Mi_T_03_5.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/Environment_Meshes/BLENDSHAPES_SHOWCASE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/Environment_Meshes/Floor_Frame.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/Environment_Meshes/Floor_main.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/Environment_Meshes/LOGO.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/Environment_Meshes/MESH_PROMO.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/MESH_A_01.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/MESH_A_02.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/MESH_A_03.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/MESH_A_04.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/MESH_H_A1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/MESH_L_00.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/MESH_L_01.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/MESH_P_00.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/MESH_T_00.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/MESH_T_01.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/MESH_T_03.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/Premade_Characters/MESH_PC_00.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/Premade_Characters/MESH_PC_01.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/Premade_Characters/MESH_PC_02.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Models/Premade_Characters/MESH_PC_03.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_01/TEX_A_01_D_0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_01/TEX_A_01_D_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_01/TEX_A_01_D_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_01/TEX_A_01_D_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_01/TEX_A_01_D_4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_01/TEX_A_01_D_5.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_01/TEX_A_01_ID.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_01/TEX_A_01_M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_01/TEX_A_01_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_01/TEX_A_01_R.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_01/TEX_A_01_S.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_02/TEX_A_02_D_0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_02/TEX_A_02_D_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_02/TEX_A_02_D_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_02/TEX_A_02_D_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_02/TEX_A_02_D_4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_02/TEX_A_02_ID.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_02/TEX_A_02_M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_02/TEX_A_02_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_02/TEX_A_02_R.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_02/TEX_A_02_S.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_03/TEX_A_03_D_0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_03/TEX_A_03_D_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_03/TEX_A_03_D_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_03/TEX_A_03_D_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_03/TEX_A_03_D_4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_03/TEX_A_03_ID.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_03/TEX_A_03_M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_03/TEX_A_03_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_03/TEX_A_03_R.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_03/TEX_A_03_S.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_04/TEX_A_04_D_0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_04/TEX_A_04_D_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_04/TEX_A_04_D_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_04/TEX_A_04_D_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_04/TEX_A_04_D_4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_04/TEX_A_04_ID.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_04/TEX_A_04_M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_04/TEX_A_04_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_04/TEX_A_04_R.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/A_04/TEX_A_04_S.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/Environment_Textures/Inprojectpromo.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/Environment_Textures/TEX_PROMO.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_D.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_D_0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_ID.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_R.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_S.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/H_A_01/TEX_H_A_01_SC.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_00/TEX_L_00_D_A.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_00/TEX_L_00_M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_00/TEX_L_00_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_00/TEX_L_00_R.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_00/TEX_L_00_S.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_00/TEX_L_00_SC.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_01/TEX_L_01_D_0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_01/TEX_L_01_D_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_01/TEX_L_01_D_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_01/TEX_L_01_D_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_01/TEX_L_01_D_4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_01/TEX_L_01_D_5.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_01/TEX_L_01_ID.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_01/TEX_L_01_M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_01/TEX_L_01_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_01/TEX_L_01_R.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/L_01/TEX_L_01_S.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/P_00/TEX_P_00_D_A.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/P_00/TEX_P_00_M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/P_00/TEX_P_00_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/P_00/TEX_P_00_R.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/P_00/TEX_P_00_S.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/P_00/TEX_P_00_SC.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_00/TEX_T_00_D_A.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_00/TEX_T_00_M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_00/TEX_T_00_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_00/TEX_T_00_R.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_00/TEX_T_00_S.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_00/TEX_T_00_SC.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_01/TEX_T_01_D_0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_01/TEX_T_01_D_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_01/TEX_T_01_D_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_01/TEX_T_01_D_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_01/TEX_T_01_D_4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_01/TEX_T_01_D_5.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_01/TEX_T_01_ID.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_01/TEX_T_01_M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_01/TEX_T_01_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_01/TEX_T_01_R.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_01/TEX_T_01_S.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_02/TEX_T_01_ID.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_02/TEX_T_02_D_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_02/TEX_T_02_M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_02/TEX_T_02_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_02/TEX_T_02_R.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_02/TEX_T_02_S.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_03/TEX_T_03_D_0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_03/TEX_T_03_D_0E.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_03/TEX_T_03_D_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_03/TEX_T_03_D_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_03/TEX_T_03_D_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_03/TEX_T_03_D_4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_03/TEX_T_03_D_5.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_03/TEX_T_03_ID.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_03/TEX_T_03_M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_03/TEX_T_03_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_03/TEX_T_03_R.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_03/TEX_T_03_S.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Assets/SCK_Casual01/Textures/T_03/TEX_T_03_SC.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/Player/BP_PlayerCharacterTRUE.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Player/BP_PlayerCharacterTRUE.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,21 +41,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Uproject.PoopyPanda.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Uproject.PoopyPanda.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\Conor\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Conor\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\Conor\\AppData\\Local\\Symbols\\src"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="PoopyPanda" type="Uproject" factoryName="rider.uproject">
       <configuration_1>
@@ -268,10 +70,10 @@
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/PoopyPanda.uproject" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
-        <option name="EXECUTABLE_PATH" value="C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor.exe" />
-        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;D:\101385\Poopy-Panda\PoopyPanda.uproject&quot;" />
+        <option name="EXECUTABLE_PATH" value="D:\Epic Games\Unreal Engine\UE_5.3\Engine\Binaries\Win64\UnrealEditor.exe" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;E:\Unreal Engine\Poopy-Panda\PoopyPanda.uproject&quot;" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
-        <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
+        <option name="WORKING_DIRECTORY" value="D:\Epic Games\Unreal Engine\UE_5.3" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="1" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="FORCE_CONSOLE" />
@@ -281,10 +83,10 @@
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/PoopyPanda.uproject" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
-        <option name="EXECUTABLE_PATH" value="C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Win64-DebugGame.exe" />
-        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;D:\101385\Poopy-Panda\PoopyPanda.uproject&quot;" />
+        <option name="EXECUTABLE_PATH" value="D:\Epic Games\Unreal Engine\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Win64-DebugGame.exe" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;E:\Unreal Engine\Poopy-Panda\PoopyPanda.uproject&quot;" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
-        <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
+        <option name="WORKING_DIRECTORY" value="D:\Epic Games\Unreal Engine\UE_5.3" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="1" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="FORCE_CONSOLE" />
@@ -294,10 +96,10 @@
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/PoopyPanda.uproject" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
-        <option name="EXECUTABLE_PATH" value="D:\101385\Poopy-Panda\Binaries\Win64\PoopyPanda-Win64-DebugGame.exe" />
+        <option name="EXECUTABLE_PATH" value="E:\Unreal Engine\Poopy-Panda\Binaries\Win64\PoopyPanda-Win64-DebugGame.exe" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
-        <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
+        <option name="WORKING_DIRECTORY" value="D:\Epic Games\Unreal Engine\UE_5.3" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="1" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="FORCE_CONSOLE" />
@@ -307,10 +109,10 @@
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/PoopyPanda.uproject" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
-        <option name="EXECUTABLE_PATH" value="D:\101385\Poopy-Panda\Binaries\Win64\PoopyPanda.exe" />
+        <option name="EXECUTABLE_PATH" value="E:\Unreal Engine\Poopy-Panda\Binaries\Win64\PoopyPanda.exe" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
-        <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
+        <option name="WORKING_DIRECTORY" value="D:\Epic Games\Unreal Engine\UE_5.3" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="1" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="FORCE_CONSOLE" />
@@ -320,10 +122,10 @@
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/PoopyPanda.uproject" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
-        <option name="EXECUTABLE_PATH" value="D:\101385\Poopy-Panda\Binaries\Win64\PoopyPanda-Win64-Shipping.exe" />
+        <option name="EXECUTABLE_PATH" value="E:\Unreal Engine\Poopy-Panda\Binaries\Win64\PoopyPanda-Win64-Shipping.exe" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
-        <option name="WORKING_DIRECTORY" value="C:\Program Files\Epic Games\UE_5.3" />
+        <option name="WORKING_DIRECTORY" value="D:\Epic Games\Unreal Engine\UE_5.3" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="1" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="FORCE_CONSOLE" />
@@ -378,6 +180,7 @@
       <workItem from="1724156572385" duration="750000" />
       <workItem from="1724162165322" duration="95000" />
       <workItem from="1724171967077" duration="136000" />
+      <workItem from="1724239535194" duration="213000" />
     </task>
     <servers />
   </component>
@@ -386,7 +189,6 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
