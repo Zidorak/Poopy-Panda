@@ -114,17 +114,19 @@ void APlayerCharacterTRUE::CheckPooBarScale(float NappyRadiusSmall, float NappyR
 			NappyRef->SetStaticMesh(Nappy1);
 			MainCollision->SetCapsuleHalfHeight(NappyRadiusSmall);
 			MainMesh->SetRelativeLocation(SmallLocation);
+			GetCharacterMovement()->MaxWalkSpeed = 400.f;
 			
 			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Small"));
 		}
 	
 		if(PooBar >= 0.34 && PooBar <= 0.66)
 		{
-			FVector MedLocation = FVector(-19.904562,15.000000,16.681440);
+			FVector MedLocation = FVector(-19.904562,15.000000,22);
 			
 			NappyRef->SetStaticMesh(Nappy2);
 			MainCollision->SetCapsuleHalfHeight(NappyRadiusMed);
 			MainMesh->SetRelativeLocation(MedLocation);
+			GetCharacterMovement()->MaxWalkSpeed = 350.f;
 			
 			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Med"));
 		}
@@ -136,6 +138,7 @@ void APlayerCharacterTRUE::CheckPooBarScale(float NappyRadiusSmall, float NappyR
 			NappyRef->SetStaticMesh(Nappy3);
 			MainCollision->SetCapsuleHalfHeight(NappyRadiusLarge);
 			MainMesh->SetRelativeLocation(LargeLocation);
+			GetCharacterMovement()->MaxWalkSpeed = 250.f;
 			
 			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Large"));
 		}
