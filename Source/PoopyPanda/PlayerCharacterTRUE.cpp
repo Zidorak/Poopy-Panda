@@ -2,6 +2,9 @@
 
 
 #include "PlayerCharacterTRUE.h"
+
+#include "Components/CapsuleComponent.h"
+#include "Components/SphereComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Math/UnrealMathUtility.h"
 
@@ -17,6 +20,9 @@ APlayerCharacterTRUE::APlayerCharacterTRUE()
 
 	ProjectileSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Projectile Spawn Point"));
 	ProjectileSpawnPoint->SetupAttachment(RootComponent);
+	
+	MainMesh = this->FindComponentByTag<USkeletalMeshComponent>(TEXT("MainMesh"));
+	RootComponent = MainMesh;
 
 }
 
@@ -27,6 +33,8 @@ void APlayerCharacterTRUE::BeginPlay()
 
 	// Gets a ref to the nappy component
 	NappyRef = this->FindComponentByTag<UStaticMeshComponent>(TEXT("Nappy"));
+
+	NappyCol = this->FindComponentByTag<USphereComponent>(TEXT("NappyCol"));
 	
 }
 
@@ -35,11 +43,12 @@ void APlayerCharacterTRUE::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	/*
 	if(CheckNappyNow == true)
 	{
 		CheckPooBarScale();
 	}
-	
+	*/
 
 	// If the stamina is less than max and not sprinting, does a short delay before interpolating the stamina back to max
 	if (Stamina < MaxStamina && IsSprinting == false)
@@ -94,13 +103,14 @@ void APlayerCharacterTRUE::Dash()
 	}
 }
 
-void APlayerCharacterTRUE::CheckPooBarScale()
+void APlayerCharacterTRUE::CheckPooBarScale(float NappyRadiusSmall, float NappyRadiusMed, float NappyRadiusLarge)
 {
 	const FVector CurrentNappyScale = NappyRef->GetComponentScale();
 	
 		if (PooBar <= 0.33)
 		{
 			NappyRef->SetStaticMesh(Nappy1);
+			NappyCol->SetSphereRadius(NappyRadiusSmall);
 		
 			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Small"));
 		}
@@ -108,6 +118,7 @@ void APlayerCharacterTRUE::CheckPooBarScale()
 		if(PooBar >= 0.34 && PooBar <= 0.66)
 		{
 			NappyRef->SetStaticMesh(Nappy2);
+			NappyCol->SetSphereRadius(NappyRadiusMed);
 			
 			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Med"));
 		}
@@ -115,6 +126,7 @@ void APlayerCharacterTRUE::CheckPooBarScale()
 		if(PooBar >= 0.67)
 		{
 			NappyRef->SetStaticMesh(Nappy3);
+			NappyCol->SetSphereRadius(NappyRadiusLarge);
 			
 			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Large"));
 		}

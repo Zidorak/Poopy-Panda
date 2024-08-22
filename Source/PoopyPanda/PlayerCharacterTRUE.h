@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "PlayerCharacterTRUE.generated.h"
 
+class USphereComponent;
+
 UCLASS()
 class POOPYPANDA_API APlayerCharacterTRUE : public ACharacter
 {
@@ -29,7 +31,7 @@ protected:
 	/*UFUNCTION()
 	int DashCharge(float DeltaTime);*/
 	UFUNCTION(BlueprintCallable)
-	void CheckPooBarScale();
+	void CheckPooBarScale(float NappyRadiusSmall, float NappyRadiusMed, float NappyRadiusLarge);
 	UFUNCTION(BlueprintCallable)
 	void SpawnPoop();
 	UFUNCTION(BlueprintCallable)
@@ -63,6 +65,11 @@ public:
 	// Shoot Poop Classes
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
 	USceneComponent* ProjectileSpawnPoint;
+
+	UPROPERTY(EditDefaultsOnly)
+	USphereComponent* NappyCol;
+
+	USkeletalMeshComponent* MainMesh;
 
 private:
 	
