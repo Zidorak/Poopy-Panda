@@ -7,26 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2650930-3f81-4c9d-9a02-80b38bcc0107" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Adam/Indoors/Window_opened.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Adam/Indoors/Window_opened.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BB_AdultAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BB_AdultAI.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BP_AIController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BP_AIController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BP_AdultAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BP_AdultAI.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BT_AdultAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BT_AdultAI.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BT_Tasks/BTT_ChasePlayer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BT_Tasks/BTT_ChasePlayer.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BT_Tasks/BTT_RoamAround.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BT_Tasks/BTT_RoamAround.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BT_Tasks/BTT_Stunned.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BT_Tasks/BTT_Stunned.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Camera.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Camera.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_PoopProjectile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_PoopProjectile.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Player/BP_PlayerCharacterTRUE.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Player/BP_PlayerCharacterTRUE.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Conor/Player/Input/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Player/Input/IMC_Default.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Levels/PoopyPanda.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Levels/PoopyPanda.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.h" afterDir="false" />
-    </list>
+    <list default="true" id="e2650930-3f81-4c9d-9a02-80b38bcc0107" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,6 +177,7 @@
       <workItem from="1724171967077" duration="136000" />
       <workItem from="1724239535194" duration="213000" />
       <workItem from="1724276625699" duration="7345000" />
+      <workItem from="1724285494578" duration="595000" />
     </task>
     <servers />
   </component>
