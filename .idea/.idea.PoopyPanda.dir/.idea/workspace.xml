@@ -8,9 +8,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2650930-3f81-4c9d-9a02-80b38bcc0107" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Adam/Indoors/Window_opened.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Adam/Indoors/Window_opened.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BB_AdultAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BB_AdultAI.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BP_AIController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BP_AIController.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BP_AdultAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BP_AdultAI.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BT_AdultAI.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BT_AdultAI.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BT_Tasks/BTT_ChasePlayer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BT_Tasks/BTT_ChasePlayer.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BT_Tasks/BTT_RoamAround.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BT_Tasks/BTT_RoamAround.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/AI/BT_Tasks/BTT_Stunned.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/AI/BT_Tasks/BTT_Stunned.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Camera.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_Camera.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_PoopProjectile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Obstcales/BP_PoopProjectile.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Conor/Player/BP_PlayerCharacterTRUE.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Player/BP_PlayerCharacterTRUE.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/Player/Input/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Player/Input/IMC_Default.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Levels/PoopyPanda.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Levels/PoopyPanda.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/AI_Adult.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,28 +55,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Uproject.PoopyPanda.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Uproject.PoopyPanda.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Conor\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Conor\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\Conor\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Conor\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Conor\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Conor\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="PoopyPanda" type="Uproject" factoryName="rider.uproject">
       <configuration_1>
@@ -181,6 +195,7 @@
       <workItem from="1724162165322" duration="95000" />
       <workItem from="1724171967077" duration="136000" />
       <workItem from="1724239535194" duration="213000" />
+      <workItem from="1724276625699" duration="7345000" />
     </task>
     <servers />
   </component>

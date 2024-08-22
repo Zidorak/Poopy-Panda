@@ -26,8 +26,8 @@ protected:
 	void EndSprint();
 	UFUNCTION(BlueprintCallable)
 	void Dash();
-	UFUNCTION()
-	int DashCharge(float DeltaTime);
+	/*UFUNCTION()
+	int DashCharge(float DeltaTime);*/
 	UFUNCTION(BlueprintCallable)
 	void CheckPooBarScale();
 	UFUNCTION(BlueprintCallable)
@@ -43,7 +43,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
 	float SprintSpeed = 800.f;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Movement")
-	float DashDistance = 2000;
+	float DashDistance = 1250;
 
 public:	
 	// Called every frame

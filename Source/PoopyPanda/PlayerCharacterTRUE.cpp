@@ -52,11 +52,6 @@ void APlayerCharacterTRUE::Tick(float DeltaTime)
 			UE_LOG(LogTemp, Display, TEXT("Stamina Remaining: %f"), Stamina);
 		}
 	}
-
-	// If player is charging dash, calls the function to generate the float timer
-	if(DashActive == true && PooBar >= 0.20)
-	{DashCharge(DeltaTime);}
-
 }
 
 // Called to bind functionality to input
@@ -89,15 +84,80 @@ void APlayerCharacterTRUE::EndSprint()
 	GetCharacterMovement()->MaxWalkSpeed = DefaultSpeed;
 }
 
-int APlayerCharacterTRUE::DashCharge(float DeltaTime)
+void APlayerCharacterTRUE::Dash()
 {
-	// When held, the timer will go up determining how much charge you will get
-	DashHoldTimer = DashHoldTimer + 1 * DeltaTime;
-	UE_LOG(LogTemp, Display, TEXT("Held For: %f"), DashHoldTimer);
-	
-	return DashHoldTimer;
+	const FVector ForwardDir = this->GetActorRotation().Vector();
+	if(PooBar >= 0.20)
+	{
+		PooBar -= 0.20;
+		LaunchCharacter(ForwardDir * DashDistance, true, true);
+	}
 }
 
+void APlayerCharacterTRUE::CheckPooBarScale()
+{
+	const FVector CurrentNappyScale = NappyRef->GetComponentScale();
+	
+		if (PooBar <= 0.33)
+		{
+			NappyRef->SetStaticMesh(Nappy1);
+		
+			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Small"));
+		}
+	
+		if(PooBar >= 0.34 && PooBar <= 0.66)
+		{
+			NappyRef->SetStaticMesh(Nappy2);
+			
+			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Med"));
+		}
+	
+		if(PooBar >= 0.67)
+		{
+			NappyRef->SetStaticMesh(Nappy3);
+			
+			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Large"));
+		}
+}
+
+void APlayerCharacterTRUE::SpawnPoop()
+{
+	if(PooBar >= 0.20)
+	{
+		const FVector SpawnLocation = SpawnPoint->GetComponentLocation();
+		const FRotator SpawnRotation = SpawnPoint->GetComponentRotation();
+		GetWorld()->SpawnActor<AActor>(ActorToSpawn, SpawnLocation, SpawnRotation);
+		PooBar -= 0.20f;;
+	}
+}
+
+void APlayerCharacterTRUE::ShootPoop()
+{
+	if(PooAmmo > 0)
+	{
+		const FVector SpawnLocation = ProjectileSpawnPoint->GetComponentLocation();
+		const FRotator SpawnRotation = ProjectileSpawnPoint->GetComponentRotation();
+		GetWorld()->SpawnActor<AActor>(ProjectileActorToSpawn, SpawnLocation, SpawnRotation);
+		PooAmmo -= 1;
+
+		UE_LOG(LogTemp, Display, TEXT("Ammo Left %i"), PooAmmo);
+	}
+}
+
+void APlayerCharacterTRUE::PickUp(float PickupValue)
+{
+	PooBar += PickupValue;
+
+	if(PooBar > 1)
+	{
+		PooBar = PooBarMax;
+	}
+}
+
+
+#pragma region Old Code
+// Old Dash Code
+/*
 void APlayerCharacterTRUE::Dash()
 {
 	DashActive = false;
@@ -161,65 +221,23 @@ void APlayerCharacterTRUE::Dash()
 		return;
 	}
 	DashHoldTimer = 0.f;
-} 
+}
+*/
 
-void APlayerCharacterTRUE::CheckPooBarScale()
+/*int APlayerCharacterTRUE::DashCharge(float DeltaTime)
 {
-	const FVector CurrentNappyScale = NappyRef->GetComponentScale();
+	// When held, the timer will go up determining how much charge you will get
+	DashHoldTimer = DashHoldTimer + 1 * DeltaTime;
+	UE_LOG(LogTemp, Display, TEXT("Held For: %f"), DashHoldTimer);
 	
-		if (PooBar <= 0.33)
-		{
-			NappyRef->SetStaticMesh(Nappy1);
-		
-			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Small"));
-		}
-	
-		if(PooBar >= 0.34 && PooBar <= 0.66)
-		{
-			NappyRef->SetStaticMesh(Nappy2);
-			
-			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Med"));
-		}
-	
-		if(PooBar >= 0.67)
-		{
-			NappyRef->SetStaticMesh(Nappy3);
-			
-			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Large"));
-		}
+	return DashHoldTimer;
 }
+*/
 
-void APlayerCharacterTRUE::SpawnPoop()
-{
-	if(PooBar >= 0.20)
-	{
-		const FVector SpawnLocation = SpawnPoint->GetComponentLocation();
-		const FRotator SpawnRotation = SpawnPoint->GetComponentRotation();
-		GetWorld()->SpawnActor<AActor>(ActorToSpawn, SpawnLocation, SpawnRotation);
-		PooBar -= 0.20f;;
-	}
-}
+//Tick code
+/* If player is charging dash, calls the function to generate the float timer
+if(DashActive == true && PooBar >= 0.20)
+{DashCharge(DeltaTime);}
+*/
 
-void APlayerCharacterTRUE::ShootPoop()
-{
-	if(PooAmmo > 0)
-	{
-		const FVector SpawnLocation = ProjectileSpawnPoint->GetComponentLocation();
-		const FRotator SpawnRotation = ProjectileSpawnPoint->GetComponentRotation();
-		GetWorld()->SpawnActor<AActor>(ProjectileActorToSpawn, SpawnLocation, SpawnRotation);
-		PooAmmo -= 1;
-
-		UE_LOG(LogTemp, Display, TEXT("Ammo Left %i"), PooAmmo);
-	}
-}
-
-void APlayerCharacterTRUE::PickUp(float PickupValue)
-{
-	PooBar += PickupValue;
-
-	if(PooBar > 1)
-	{
-		PooBar = PooBarMax;
-	}
-}
-
+#pragma endregion

@@ -43,31 +43,33 @@ void AAI_Adult::StunnedEnd()
 void AAI_Adult::OnTimer()
 {
 	++TimerCount;
-	UE_LOG(LogTemp, Log, TEXT("Timer Tick: %d"), TimerCount);
 
 	switch(TimerCount)
 	{
 		case 1:
 			if (TimerCount == 60)
 			{
-				GetCharacterMovement()->MaxWalkSpeed = 300.0f;
-				UE_LOG(LogTemp, Display, TEXT("Set Speed to min"));
+				StunnedTime = 2.f;
+				WalkingSpeed = 250.f;
+				GetCharacterMovement()->MaxWalkSpeed = WalkingSpeed;
 			}
 		break;
 
 		case 2:
-			if (TimerCount == 180)
+			if (TimerCount == 120)
 			{
-				GetCharacterMovement()->MaxWalkSpeed = 350.0f;
-				UE_LOG(LogTemp, Display, TEXT("Set Speed to med"));
+				StunnedTime = 1.f;
+				WalkingSpeed = 300.f;
+				GetCharacterMovement()->MaxWalkSpeed = WalkingSpeed;
 			}
 		break;
 
 		case 3:
-		if (TimerCount == 300)
+		if (TimerCount == 180)
 			{
-				GetCharacterMovement()->MaxWalkSpeed = 400.0f;
-			UE_LOG(LogTemp, Display, TEXT("Set Speed to high"));
+				StunnedTime = 0.2f;
+				WalkingSpeed = 350.f;
+				GetCharacterMovement()->MaxWalkSpeed = WalkingSpeed;
 			}
 		break;
 		

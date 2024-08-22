@@ -23,6 +23,11 @@ protected:
 	void Stunned();
 	UFUNCTION(BlueprintCallable)
 	void StunnedEnd();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement", meta = (AllowPrivateAccess = "true"))
+	float StunnedTime = 3.f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement", meta = (AllowPrivateAccess = "true"))
+	float WalkingSpeed = 200;
 	
 public:	
 	// Called every frame
