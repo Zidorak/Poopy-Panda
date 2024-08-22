@@ -66,9 +66,7 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
 	USceneComponent* ProjectileSpawnPoint;
 
-	UPROPERTY(EditDefaultsOnly)
-	USphereComponent* NappyCol;
-
+	UCapsuleComponent* MainCollision;
 	USkeletalMeshComponent* MainMesh;
 
 private:

@@ -20,9 +20,8 @@ APlayerCharacterTRUE::APlayerCharacterTRUE()
 
 	ProjectileSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Projectile Spawn Point"));
 	ProjectileSpawnPoint->SetupAttachment(RootComponent);
+
 	
-	MainMesh = this->FindComponentByTag<USkeletalMeshComponent>(TEXT("MainMesh"));
-	RootComponent = MainMesh;
 
 }
 
@@ -34,7 +33,9 @@ void APlayerCharacterTRUE::BeginPlay()
 	// Gets a ref to the nappy component
 	NappyRef = this->FindComponentByTag<UStaticMeshComponent>(TEXT("Nappy"));
 
-	NappyCol = this->FindComponentByTag<USphereComponent>(TEXT("NappyCol"));
+	MainCollision = this->FindComponentByTag<UCapsuleComponent>(TEXT("MainCollision"));
+
+	MainMesh = this->FindComponentByTag<USkeletalMeshComponent>(TEXT("MainMesh"));
 	
 }
 
@@ -105,28 +106,36 @@ void APlayerCharacterTRUE::Dash()
 
 void APlayerCharacterTRUE::CheckPooBarScale(float NappyRadiusSmall, float NappyRadiusMed, float NappyRadiusLarge)
 {
-	const FVector CurrentNappyScale = NappyRef->GetComponentScale();
 	
 		if (PooBar <= 0.33)
 		{
+			FVector SmallLocation = FVector(-19.904561,15.000000,24.907442);
+			
 			NappyRef->SetStaticMesh(Nappy1);
-			NappyCol->SetSphereRadius(NappyRadiusSmall);
-		
+			MainCollision->SetCapsuleHalfHeight(NappyRadiusSmall);
+			MainMesh->SetRelativeLocation(SmallLocation);
+			
 			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Small"));
 		}
 	
 		if(PooBar >= 0.34 && PooBar <= 0.66)
 		{
+			FVector MedLocation = FVector(-19.904562,15.000000,16.681440);
+			
 			NappyRef->SetStaticMesh(Nappy2);
-			NappyCol->SetSphereRadius(NappyRadiusMed);
+			MainCollision->SetCapsuleHalfHeight(NappyRadiusMed);
+			MainMesh->SetRelativeLocation(MedLocation);
 			
 			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Med"));
 		}
 	
 		if(PooBar >= 0.67)
 		{
+			FVector LargeLocation = FVector(-19.904562,15.000000,14.068238);
+			
 			NappyRef->SetStaticMesh(Nappy3);
-			NappyCol->SetSphereRadius(NappyRadiusLarge);
+			MainCollision->SetCapsuleHalfHeight(NappyRadiusLarge);
+			MainMesh->SetRelativeLocation(LargeLocation);
 			
 			UE_LOG(LogTemp, Display, TEXT("Nappy Set to Large"));
 		}
