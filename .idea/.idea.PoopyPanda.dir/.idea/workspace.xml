@@ -8,9 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2650930-3f81-4c9d-9a02-80b38bcc0107" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopyPanda.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Conor/Player/BP_PlayerCharacterTRUE.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Conor/Player/BP_PlayerCharacterTRUE.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Levels/PoopyPanda.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Levels/PoopyPanda.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PoopyPanda/PlayerCharacterTRUE.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,6 +186,7 @@
       <workItem from="1724365972779" duration="1894000" />
       <workItem from="1724368606713" duration="24000" />
       <workItem from="1724369328189" duration="454000" />
+      <workItem from="1724438425707" duration="2348000" />
     </task>
     <servers />
   </component>
