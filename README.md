@@ -31,15 +31,15 @@ Space - Glide (When Upgrade is aquired, double tap & hold space in air to glide)
   5. Click on UProject file from the folder
 
 ## Credits
-  . Game Designer - Giancarlo Tripi
-  . AI and Gameplay Programmer Lead - Conor Kirkby
-  . UI Programmer Lead and Gameplay Programmer - Rostyslav Tarasiuk
-  . Artist - Natalia Omelchenko
-  . Artist - Adam K
-  . Artist - David Ivanov
-  . Artist - Karena Ogbewe
-  . Artist - Gyn Capua
-  . Artist - Mawo
+  . Game Designer - Giancarlo Tripi    
+  . AI and Gameplay Programmer Lead - Conor Kirkby    
+  . UI Programmer Lead and Gameplay Programmer - Rostyslav Tarasiuk    
+  . Artist - Natalia Omelchenko    
+  . Artist - Adam K    
+  . Artist - David Ivanov    
+  . Artist - Karena Ogbewe    
+  . Artist - Gyn Capua    
+  . Artist - Mawo    
   
 
 ## The Team's Workspace
