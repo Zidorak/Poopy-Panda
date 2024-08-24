@@ -12,5 +12,5 @@ AI BP, BTT, BB = Content -> Conor -> AI
 Security Camrera BP = Content -> Conor -> Obstacles    
 (https://github.com/Zidorak/Poopy-Panda/tree/main/Content/Conor/Obstcales)    
 
-C++ Classes = Source -> PoopyPanda  //     
-(https://github.com/Zidorak/Poopy-Panda/tree/main/Source/PoopyPanda) // PlayerCharacter.cpp, AdultAI.cpp, PoopProjectile.cpp, Camera.cpp, ObstacleForAI.cpp    
+C++ Classes for each above = Source -> PoopyPanda  //     
+(https://github.com/Zidorak/Poopy-Panda/tree/main/Source/PoopyPanda)    
