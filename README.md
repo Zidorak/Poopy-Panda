@@ -1,7 +1,7 @@
 # Poopy-Panda
 GMTK's Game Jam Project
 
-// Direction to Conor's Work    
+// Direction to Conor's Work (https://snow-paw-games.itch.io)       
 
 PlayerCharacter BP = Content -> Conor - > Player    
 (https://github.com/Zidorak/Poopy-Panda/tree/main/Content/Conor/Player)    
