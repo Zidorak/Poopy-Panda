@@ -6,7 +6,7 @@ GMTK's Game Jam Project
 PlayerCharacter BP = Content -> Conor - > Player    
 (https://github.com/Zidorak/Poopy-Panda/tree/main/Content/Conor/Player)    
 
-AI BP, BTT, BB = Content -> Conor -> AI    
+AI BP, BT, BB = Content -> Conor -> AI    
 (https://github.com/Zidorak/Poopy-Panda/tree/main/Content/Conor/AI)
 
 Security Camrera BP = Content -> Conor -> Obstacles    
